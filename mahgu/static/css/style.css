@@ -1,0 +1,41 @@
+/* LAYOUT */
+
+body {
+	color: rgb(255, 255, 255);
+	background: rgb(35, 34, 34);
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	text-align: center;
+	padding: 0px
+}
+
+main {
+    	border-radius: 25px;
+   	background: #474747;
+   	border: 2px solid green;
+   	padding: 25px;
+}
+
+li {
+	display: inline-block;
+	padding: 4px
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 {
+	color: yellow;
+   	text-align: center;
+}
+
+nav {
+	font-size: 18px;
+}
+
