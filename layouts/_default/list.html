@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Title}}</h1>
+
+{{ .Content }}
+
+<h2>Lista de artículos</h2>
+<div class="lista-menu">
+	<ul>
+		{{ range .Pages }}
+			<li>
+				<p><b><a href="{{ .Permalink }}">{{ .Title }}</a></b> - <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+				</p>
+			</li>
+		{{ end }}
+	</ul>
+</div>
+
+{{ partial "footer.html" . }}
